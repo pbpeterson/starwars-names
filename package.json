@@ -16,6 +16,9 @@
     "star",
     "wars"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Peterson P Bozza <petersonbozza7@gmail.com> (https://pbpeterson.dev/)",
   "license": "MIT",
   "bugs": {
