@@ -1,0 +1,28 @@
+{
+  "name": "starwars-names",
+  "version": "1.0.0",
+  "description": "Get random starwars names",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbpeterson/starwars-names.git"
+  },
+  "keywords": [
+    "random",
+    "star",
+    "wars"
+  ],
+  "author": "Peterson P Bozza <petersonbozza7@gmail.com> (https://pbpeterson.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pbpeterson/starwars-names/issues"
+  },
+  "homepage": "https://github.com/pbpeterson/starwars-names#readme",
+  "dependencies": {
+    "unique-random-array": "4.0.0"
+  }
+}
