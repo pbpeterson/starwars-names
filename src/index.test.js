@@ -22,4 +22,11 @@ describe("starwars-names", function () {
   it("should return a random item from lib.all", function () {
     assert.ok(lib.all.includes(lib.random()));
   });
+
+  it("should return an array of random items if passed a number", function () {
+    const quantityOfItems = 3;
+    const randomItems = lib.random(quantityOfItems);
+
+    assert.equal(randomItems.length, quantityOfItems);
+  });
 });
